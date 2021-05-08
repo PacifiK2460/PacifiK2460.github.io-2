@@ -1,5 +1,5 @@
 :root{
-    --borde: solid Silver  
+    --borde: none Silver  
 }
 
 body {
@@ -7,6 +7,7 @@ body {
     width: 100%;
     border: var(--borde);
     font-family: 'Work Sans', sans-serif;
+    background: linear-gradient(180deg, #FFFFFF 33.85%, #FF6107 93.75%);
 }
 
 #topbar{
@@ -383,4 +384,72 @@ border-radius: 0px 0px 25px 25px;
     text-align: center;
 
     color: white;
+}
+
+#contactos #top{
+
+    border: var(--borde);
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#contactos #top .persona{
+    border: var(--borde);
+
+    margin-left: 15px;
+    text-align: left;
+}
+
+#contactos #top .persona .nombre{
+    border: var(--borde);
+
+    font-family: Work Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+
+    margin-left: 200px;
+}
+
+#contactos #top .persona .correo{
+    border: var(--borde);
+
+    margin-left: 200px;
+    
+    font-family: Work Sans;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+
+    color: #FFFFFF;
+}
+#contactos #top .persona .icono{
+    border: var(--borde);
+
+    float: left;
+    position: static;
+    width: 120px;
+}
+
+footer div{
+    background-color: white;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+
+    color: #000000;
+
 }
