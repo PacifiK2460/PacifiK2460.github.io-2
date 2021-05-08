@@ -1,5 +1,5 @@
 :root{
-    --borde: none Silver  
+    --borde: solid Silver  
 }
 
 body {
@@ -242,19 +242,81 @@ border-radius: 0px 0px 25px 25px;
     height: 350px;
 }
 
-
-#mision{
+#misiones{
     margin-top: 1500px;
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
     border:var(--borde);
     width: 90%;
-    height: 500px;
+    height: 1000px;
     align-items: center;
     text-align: center;
 
     background-color: rgb(255, 255, 255);
     filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
     border-radius: 25px;
+}
+
+#mision{
+    border:var(--borde);
+    float: left;
+    position: absolute;
+    width: 42%;
+    left: 50px;
+    top: 10px;
+}
+
+#vision{
+    border:var(--borde);
+}
+
+#valores{
+    border:var(--borde);
+}
+
+#contenido-titulo{
+    border:var(--borde);
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 113px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #000000;
+}
+
+#contenido-titulo:before{
+    content:"";
+    float: left;
+    position: absolute;
+    background: linear-gradient(180deg, #FF6107 23.44%, #DE0000 100%);
+    width:300px;
+    height:50px;
+    z-index:-1;
+    filter:url(#marker-shape);
+    left:-12px;
+    top:50px;
+    padding:0 0.25em;
+  }
+
+#contenido-contenido{
+    border:var(--borde);
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
 }
