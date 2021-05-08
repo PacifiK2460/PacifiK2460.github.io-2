@@ -235,8 +235,26 @@ border-radius: 0px 0px 25px 25px;
 }
 
 .autor .foto{
+    border: var(--borde);
     border-radius: 25px;
     object-fit: fit;
     margin-top: 50px;
     height: 350px;
+}
+
+
+#mision{
+    margin-top: 1500px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border:var(--borde);
+    width: 90%;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
 }
