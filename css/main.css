@@ -302,6 +302,7 @@ border-radius: 0px 0px 25px 25px;
 }
 
 .contenido-titulo:before{
+    border: var(--borde);
     content:"";
     float: left;
     position: absolute;
@@ -328,4 +329,48 @@ border-radius: 0px 0px 25px 25px;
     text-align: center;
 
 
+}
+
+#confiados{
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border:var(--borde);
+    width: 90%;
+    height: 900px;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, #FF6107 23.44%, #DE0000 100%);
+    filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+}
+
+#confiados .contenido-titulo{
+    margin-left: 27%;
+    color: white;
+}
+
+#confiados .contenido-titulo:before{
+    border: var(--borde);
+    content:"";
+    float: left;
+    position: absolute;
+    background: linear-gradient(180deg, #000000 23.44%, #000000 100%);
+    width:300px;
+    height:50px;
+    z-index:-1;
+    filter:url(#marker-shape);
+    left: 450px;
+    top:50px;
+    padding:0 0.25em;
+  }
+
+#confiados .contenido-contenido{
+    margin-left: 19%;
+}
+
+#logros{
+    
 }
