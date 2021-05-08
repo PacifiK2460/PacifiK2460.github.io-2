@@ -372,5 +372,15 @@ border-radius: 0px 0px 25px 25px;
 }
 
 #logros{
-    
+    border:var(--borde);
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: white;
 }
