@@ -602,3 +602,113 @@ border-radius: 0px 0px 25px 25px;
     border: var(--borde);
     margin-top: 10px;
 }
+
+.comentario{
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border:var(--borde);
+    width: 90%;
+    align-items: center;
+    text-align: left;
+
+    font-size: 25px;
+
+
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 47px;
+    align-items: center;
+
+    color: #000000;
+}
+
+.respuesta{
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border:var(--borde);
+    width: 80%;
+    align-items: center;
+    text-align: left;
+
+    font-size: 25px;
+
+
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 47px;
+    align-items: center;
+
+    color: #000000;
+
+    left: 130px;
+    position: relative;
+
+}
+
+.respuesta-1{
+    position: relative;
+    padding: 20px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border:var(--borde);
+    width: 70%;
+    align-items: center;
+    text-align: left;
+
+    font-size: 25px;
+
+
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(9px 12px 24px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
+
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 47px;
+    align-items: center;
+
+    color: #000000;
+
+    left: 250px;
+    position: relative;
+}
+
+.username{
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: white;
+    background-image: linear-gradient(180deg, #DE0000, #FF6107);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.mensaje{
+    float: left;
+}
